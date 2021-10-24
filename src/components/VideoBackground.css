@@ -55,6 +55,11 @@ header {
   }
   
   .display-3{
-      color: aliceblue;
+    background: #FF9900;
+    background: -webkit-linear-gradient(to right, #FF9900 20%, #F43627 98%);
+    background: -moz-linear-gradient(to right, #FF9900 20%, #F43627 98%);
+    background: linear-gradient(to right, #FF9900 20%, #F43627 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
       font-family: 'Staatliches', cursive;
   }

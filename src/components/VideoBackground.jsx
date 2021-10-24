@@ -14,7 +14,7 @@ export default function VideoBackground() {
           <div class="d-flex h-100 text-center align-items-center">
             <div class="w-100 text-white">
               <span class="display-3" style={{color:'#fff'}}>MARTIN CERNA</span>
-              <div><span class="lead mb-0" style={{color:'rgb(213 213 213)'}} >Fotógrafo Profesional Para Eventos en Perú</span></div>
+              <div><span class="lead mb-0" style={{color:'rgb(213 213 213)'}} >Mi servicio de fotografía profesional te ayudará a mostrar lo mejor de ti.</span></div>
             </div>
           </div>
         </div>

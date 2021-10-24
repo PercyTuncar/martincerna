@@ -5,7 +5,7 @@
     padding: 10px;
 }
 .card{
-    box-shadow: 5px 4px 18px -2px #5252521c;
+    box-shadow:3px 23px 45px 3px rgb(82 82 82 / 15%);
     border-radius: 12px
 ;
 }
@@ -32,4 +32,10 @@
     margin-bottom: 20px !important;
     width: 70%;
     margin: auto;
+}
+
+.btn-primary{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px 25px;
 }
