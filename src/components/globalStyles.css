@@ -1,5 +1,5 @@
 :root {
-  --primary: #00c2bd;
+  --primary: #FF9900;
   --secondary: #000;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
@@ -30,14 +30,15 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   min-height: 100%;
-  background: var(--lightGrey);
+  background: #F6F6F5;
+
 }
 
 body {
   font-family: var(--font-system);
   min-height: 100%;
   position: relative;
-  background: white;
+  background: #F6F6F5 !important;
   color: var(--secondary);
   font-size: 1.6em;
   font-weight: 400;
@@ -57,6 +58,8 @@ strong {
 p {
   margin-top: 0;
   margin-bottom: 1em;
+  font-size: 14px;
+  color: #232F3E !important;
 }
 
 h1,
@@ -67,8 +70,27 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 0.5em;
+  color: #232F3E !important;
 }
-
+h1{
+  font-size: 40px ;
+}
+h2{
+  font-size: 35px ;
+  
+}
+h3{
+  font-size: 30px ;
+  
+}
+h4{
+  font-size: 25px ;
+  
+}
+h5{
+  font-size: 20px;
+  
+}
 pre {
   background: var(--lightGrey);
   line-height: 1.45;

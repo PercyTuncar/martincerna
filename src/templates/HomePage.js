@@ -2,24 +2,17 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
-import Content from '../components/Content'
+import VideoBackground from '../components/VideoBackground'
 import Layout from '../components/Layout'
+import Body from '../components/Body'
+
+ 
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
-  <main className="Home">
-    <PageHeader
-      large
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
-
-    <section className="section">
-      <div className="container">
-       <h1>Hello World</h1>
-      </div>
-    </section>
+  <main className="Home"> 
+    <VideoBackground/>
+    <Body/>
   </main>
 )
 
