@@ -78,7 +78,8 @@ export default ({ children, meta, title }) => {
             <Nav subNav={subNav} />
 
             <Fragment>{children}</Fragment>
-
+              <div style={{width:'199%', height:'2px', color:'red'}}>
+             </div>
             <Footer />
           </Fragment>
         )

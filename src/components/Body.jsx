@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card'; 
 import CardGroup from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
+import Galeria from './Galeria';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Body.css';
 
@@ -94,7 +95,18 @@ export default function Body() {
       
         </Container> 
 </div>
-     
+ <div style={{width:'100%'}}> 
+   <Container style={{display:'block'}}>
+   <h1 className="header"> Conoce <span style={{color:'red'}}>mi portafolio</span></h1>
+                    <p className="text-center aling">
+                    Ofrezco servicios de fotografía 
+                    para todos tus eventos sociales y empresariales 
+                    con precios únicos junto a la calidad y atención 
+                    que solo tú te mereces.
+                    </p> 
+     <Galeria/>
+   </Container>
+ </div>
         </>
     );
   }

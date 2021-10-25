@@ -2,19 +2,57 @@ import React from 'react'
 import './Footer.css'
 
 export default () => (
-  <div>
-    <h2 className="taCenter">
-      Follow us{' '}
-      <a href="https://instagram.com/thrivegoldcoast/">@thrivegoldcoast</a>
-    </h2>
-    <br />
-    <footer className="footer">
-      <div className="container taCenter">
-        <span>
-          © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
-          <a href="https://thriveweb.com.au/">Thrive</a>.
-        </span>
-      </div>
-    </footer>
-  </div>
+   <>
+    <footer class="footer-distributed">
+ 
+ <div class="footer-left">
+     <img src="https://firebasestorage.googleapis.com/v0/b/teams-92a37.appspot.com/o/martincerna%2FLOGO%20WEB%20MARTIN%20CERNA-03.svg?alt=media&token=246cf935-d334-40d2-a35b-e292d4797ec6"/>
+    <br/>
+     <span class="display-3" style={{fontSize:'35px'}}>MARTIN CERNA</span>
+
+   <p class="footer-links">
+     <a href="#">Inicio  | </a>
+     
+     <a href="#"> Blog | </a>
+     
+     <a href="#"> Precios | </a>
+     
+     <a href="#"> Contactar </a>
+   </p>
+
+   <p class="footer-company-name">© 2021 - 2022</p>
+ </div>
+
+ <div class="footer-center">
+   <div>
+     <i class="fa fa-map-marker"></i>
+       <p><span>309 - Rupa Solitaire,
+        Bldg. No. A - 1, Sector - 1</span>
+       Vancouver, WA, USA - 98661</p>
+   </div>
+
+   <div>
+     <i class="fa fa-phone"></i>
+     <p>(360) 314-0000</p>
+   </div>
+   <div>
+     <i class="fa fa-envelope"></i>
+     <p><a href="mailto:support@eduonix.com">gabrielcrockett@gmail.com</a></p>
+   </div>
+ </div>
+ <div class="footer-right">
+   <p class="footer-company-about">
+     <span>Sobre mis servicios</span>
+     Mi servicio de fotografía profesional te ayudará a mostrar lo mejor de ti.</p>
+   <div class="footer-icons">
+     <a href="#"><i class="fa fa-facebook"></i></a>
+     <a href="#"><i class="fa fa-twitter"></i></a>
+     <a href="#"><i class="fa fa-instagram"></i></a>
+     <a href="#"><i class="fa fa-linkedin"></i></a>
+     <a href="#"><i class="fa fa-youtube"></i></a>
+   </div>
+ </div>
+</footer>
+</>
+
 )

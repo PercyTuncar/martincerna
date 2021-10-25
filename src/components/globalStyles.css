@@ -45,6 +45,11 @@ body {
   letter-spacing: 0.01em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+
+}
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 a {
@@ -59,7 +64,7 @@ p {
   margin-top: 0;
   margin-bottom: 1em;
   font-size: 14px;
-  color: #232F3E !important;
+  color: #232F3E;
 }
 
 h1,
@@ -157,7 +162,7 @@ blockquote {
   bottom: 0;
 }
 .taCenter {
-  text-align: center;
+  display: none;
 }
 .taLeft {
   text-align: left;
