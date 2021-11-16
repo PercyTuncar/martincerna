@@ -1,6 +1,5 @@
 import React from 'react'    
-
-import { graphql } from 'gatsby'
+ 
  
 import VideoBackground from '../components/VideoBackground'
 import Layout from '../components/Layout'
@@ -206,22 +205,3 @@ const servicios = ( ) => (
 )
 
 export default servicios
-
-export const pageQuery = graphql`
-  ## Query for servicios data
-  ## Use GraphiQL interface (http://localhost:8000/___graphql)
-  ## $id is processed via gatsby-node.js
-  ## query name must be unique to this file
-  query servicios($id: String!) {
-    page: markdownRemark(id: { eq: $id }) {
-      ...Meta
-      html
-      frontmatter {
-        id
-        title
-        subtitle
-        featuredImage
-      }
-    }
-  }
-`
