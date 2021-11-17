@@ -41,8 +41,8 @@ const servicios = ( ) => (
                         <div className="col-md-12 text-center seo_banner_content">
                             <Reveal effect="fadeInUp" duration={500}><h2>Servicio de Fotografía Profesional <br/>  en Lima Perú</h2></Reveal>
                             <Reveal effect="fadeInUp" duration={1000}><p className="wow fadeInUp" data-wow-delay="0.5s">Fotos profesionales para su gran día. Haz que el momento dure<br/>  para siempre a través de fotografías profesionales.!</p></Reveal>
-                            <Reveal effect="fadeInLeft" duration={1200}><a href="/contact" className="seo_btn seo_btn_one btn_hover wow fadeInLeft">  CONTACTAR </a></Reveal>
-                            <Reveal effect="fadeInLeft" duration={1200}><a href="./" className="seo_btn seo_btn_two btn_hover wow fadeInRight">VER PRECIOS</a></Reveal>
+                          
+                            <Reveal effect="fadeInLeft" duration={1200}><a href="https://api.whatsapp.com/send?phone=51936485262&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n." className="seo_btn seo_btn_two btn_hover wow fadeInRight">CONTACTAR POR WHATSAPP</a></Reveal>
                         </div>
                     </div> 
                 </div>
@@ -196,11 +196,13 @@ const servicios = ( ) => (
                     <h3>¿Tiene un tipo de evento diferente?</h3>
                    
                     <p> <span>  No hay problema.</span> El servicio completo de fotografía es mi especialidad.</p>
-                    <a href="/#" className="er_btn er_btn_two">CONTACTAR</a>
+                    <Reveal effect="fadeInLeft" duration={1200}><a href="https://api.whatsapp.com/send?phone=51936485262&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n." className="seo_btn seo_btn_two btn_hover wow fadeInRight">CONTACTAR POR WHATSAPP</a></Reveal>
                 </div>
             </div>
         </section>
-
+        <a href="https://api.whatsapp.com/send?phone=51936485262&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"><img src="https://firebasestorage.googleapis.com/v0/b/teams-92a37.appspot.com/o/whatsapp.svg?alt=media&token=41668558-4d5c-4df1-a6b6-2dd49af081a0"/></i>
+</a>
   </Layout>
 )
 

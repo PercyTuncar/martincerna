@@ -10,15 +10,7 @@ export default () => (
     <br/>
      <span class="display-3" style={{fontSize:'35px'}}>MARTIN CERNA</span>
 
-   <p class="footer-links">
-     <a href="#">Inicio  | </a>
-     
-     <a href="#"> Blog | </a>
-     
-     <a href="#"> Precios | </a>
-     
-     <a href="#"> Contactar </a>
-   </p>
+ 
 
    <p class="footer-company-name">© 2021 - 2022</p>
  </div>
@@ -26,18 +18,16 @@ export default () => (
  <div class="footer-center">
    <div>
      <i class="fa fa-map-marker"></i>
-       <p><span>309 - Rupa Solitaire,
-        Bldg. No. A - 1, Sector - 1</span>
-       Vancouver, WA, USA - 98661</p>
+       <p><span>Lima, Perú</span> MARTIN CERNA  </p>
    </div>
 
    <div>
      <i class="fa fa-phone"></i>
-     <p>(360) 314-0000</p>
+     <p>936 485 262</p>
    </div>
    <div>
      <i class="fa fa-envelope"></i>
-     <p><a href="mailto:support@eduonix.com">gabrielcrockett@gmail.com</a></p>
+     <p><a href="mailto:support@eduonix.com">consultas@martincerna.com</a></p>
    </div>
  </div>
  <div class="footer-right">
@@ -49,7 +39,6 @@ export default () => (
      <a href="#"><i class="fa fa-twitter"></i></a>
      <a href="#"><i class="fa fa-instagram"></i></a>
      <a href="#"><i class="fa fa-linkedin"></i></a>
-     <a href="#"><i class="fa fa-youtube"></i></a>
    </div>
  </div>
 </footer>
